@@ -1,0 +1,59 @@
+// Base
+*,
+*:before,
+*:after
+  +box-sizing(border-box)
+
+// Layout
+html,
+body
+  height: 100%
+
+html
+  font-size: 62.5%
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+body 
+  background-color: $body-bg
+  color: $text-color
+  font: 100%/1.5 $font-family-base
+  font-size: $font-size-base
+  line-height: $line-height-base
+  -webkit-text-size-adjust: 100%
+
+
+
+// Horizontal rules
+hr
+  margin-top: $line-height-computed
+  margin-bottom: $line-height-computed
+  border: 0
+  border-top: 1px solid $gray-light
+
+
+
+// Media
+img 
+  vertical-align: middle
+
+img,
+video,
+object
+  height: auto
+  max-height: 100%
+
+iframe
+  margin-bottom: $padding-base-vertical * 2
+
+
+
+// Links
+a 
+  color: $link-color
+  text-decoration: none
+  outline: 0
+
+  &:hover,
+  &:focus 
+    color: $link-hover-color
+    text-decoration: underline
