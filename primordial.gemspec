@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Primordial::VERSION
   spec.authors       = ["John Koht"]
   spec.email         = ["john@kohactive.com"]
-  spec.description   = "Simple, standard and elegant CSS structures"
-  spec.summary       = "Simple, standard and elegant CSS structures"
+  spec.description   = "Simple, standard and elegant CSS structures based on Bootstrap3"
+  spec.summary       = "Simple, standard and elegant CSS structures based on Bootstrap 3"
   spec.homepage      = ""
   spec.license       = "MIT"
 
